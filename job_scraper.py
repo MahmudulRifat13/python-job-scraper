@@ -52,19 +52,3 @@ with open("all_jobs.csv", "w", newline="", encoding="utf-8") as file:
         
 
 print("Total jobs found:", count)
-
-
-
-
-
-
-
-
-
-
-
-
-#         print(title)
-#         print(company)
-#         print(location)
-#         print(apply_link)
