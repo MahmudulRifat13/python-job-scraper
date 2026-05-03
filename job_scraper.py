@@ -61,29 +61,6 @@ print("Total jobs found:", count)
 
 
 
-# url="https://realpython.github.io/fake-jobs/"
-# response = requests.get(url)
-# soup=BeautifulSoup(response.text, "html.parser")
-# jobs=soup.find_all("div", class_="card-content")
-#print(len(jobs))
-
-#job = jobs[0]
-
-# title = job.find("h2", class_="title is-5").text
-# company = job.find("h3", class_="subtitle is-6 company").text
-# location = job.find("p", class_="location").text
-
-
-# for j in jobs[:1]:
-#         title = job.find("h2", class_="title is-5").text
-#         company = job.find("h3", class_="subtitle is-6 company").text
-#         location = job.find("p", class_="location").text
-#         link = job.find_all("a")
-    
-#         apply_link=""
-#         for l in link:
-#             if "Learn" in l.text:
-#                 apply_link = l["href"]
 
 
 
